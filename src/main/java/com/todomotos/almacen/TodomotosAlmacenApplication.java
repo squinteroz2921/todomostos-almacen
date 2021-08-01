@@ -10,4 +10,5 @@ public class TodomotosAlmacenApplication {
 		SpringApplication.run(TodomotosAlmacenApplication.class, args);
 	}
 
+
 }
