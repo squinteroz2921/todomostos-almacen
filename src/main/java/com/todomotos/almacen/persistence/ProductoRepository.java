@@ -28,5 +28,5 @@ public class ProductoRepository {
     public void delete ( int idProducto){
         productoCrudRepository.deleteById(idProducto);
     }
-   
+
 }
