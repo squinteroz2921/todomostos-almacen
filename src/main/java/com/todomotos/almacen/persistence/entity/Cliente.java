@@ -6,7 +6,8 @@ import java.util.List;
 @Entity
 @Table(name="clientes")
 public class Cliente {
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
 
     private  String nombre;

@@ -16,8 +16,8 @@ public class ProductService {
         public List <Product> getAll(){
         return productRepository.getAll();
     }
-    public Optional <Product> getByProductId(int prodcutId){
-            return productRepository.getByProductId(prodcutId);
+    public Optional <Product> getByProductId(int productId){
+            return productRepository.getByProductId(productId);
     }
     public Optional <List<Product>> getByCategory(int categoryId){
           return productRepository.getByCategory(categoryId);
