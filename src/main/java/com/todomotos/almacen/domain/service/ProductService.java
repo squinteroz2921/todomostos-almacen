@@ -9,10 +9,10 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-//nos permite realizar el enlace entre el controlador y el repository
 public class ProductService {
     @Autowired
      private ProductRepository productRepository;
+
         public List <Product> getAll(){
         return productRepository.getAll();
     }
