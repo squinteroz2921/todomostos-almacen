@@ -5,9 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-//@ComponentScan(basePackages = {"com.todomotos.almacen.domain.repository"})
-@ComponentScan(basePackages = {"com.todomotos.almacen.web"})
-
 public class TodomotosAlmacenApplication {
 
 	public static void main(String[] args) {
